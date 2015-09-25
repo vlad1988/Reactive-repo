@@ -1,0 +1,9 @@
+.del {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.divider {
+  width: 30px;
+  display: inline-block;
+}

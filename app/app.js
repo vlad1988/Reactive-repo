@@ -52,7 +52,7 @@ var List = React.createClass({
     return(
         <li  className="list-group-item">
         <input type="checkbox" onChange={this.handleComplete}/>
-        <span className={classString}>{this.props.title}</span>
+        <span className={classString}> {this.props.title}</span>
         </li>
     );
   }
