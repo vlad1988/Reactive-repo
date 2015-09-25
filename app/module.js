@@ -34,9 +34,9 @@ var Carousel = React.createClass({
       <div>
       <img className="img-thumbnail img-responsive" src={this.state.cursor} />
       <hr/>
-      <button onClick={this.handlePrev} className="btn btn-success">Prev</button>
+      <button onClick={this.handlePrev} className="btn btn-success glyphicon glyphicon-chevron-left"></button>
       <span className="divider"></span>
-      <button onClick={this.handleNext} className="btn btn-success">Next</button>
+      <button onClick={this.handleNext} className="btn btn-success glyphicon glyphicon-chevron-right"></button>
       </div>
     );
   }
