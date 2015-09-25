@@ -13,7 +13,7 @@ var Carousel = React.createClass({
   handleNext: function(e){
     this.setState({counter: this.state.counter+1});
     if(this.state.counter >= 4){
-      this.setState({counter: 4});
+      this.setState({counter: 0});
     }
     this.setState({cursor: this.state.pathTo[this.state.counter]});
     console.log(this.state.counter);
@@ -21,7 +21,7 @@ var Carousel = React.createClass({
   handlePrev: function(e){
     this.setState({counter: this.state.counter-1});
     if(this.state.counter <= 0){
-      this.setState({counter: 0});
+      this.setState({counter: 4});
     }
     this.setState({cursor: this.state.pathTo[this.state.counter]});
     console.log(this.state.counter);
