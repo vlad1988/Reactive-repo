@@ -7,10 +7,16 @@
     <script type="text/javascript" src="/assets/react/react-with-addons.js"></script>
     <script type="text/javascript" src="/assets/react/JSXTransformer.js"></script>
     <script type="text/jsx" src="app.js"></script>
+    <style media="screen">
+      .del {
+        text-decoration: line-through;
+        color: #ccc;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <h2>TODO List App</h2>
+      <h2 class="text-center"><i class="glyphicon glyphicon-star"></i> TODO List App</h2>
       <div id="content"></div>
     </div>
   </body>
